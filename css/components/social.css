@@ -1,0 +1,36 @@
+/* ---- FOOTER SOCIAL ---- */
+
+.footer-social {
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: block;
+}
+
+.social-link {
+    float: left;
+    display: block
+}
+
+.social-item {
+    width: 49px;
+    height: 55px;
+    background: url(../../img/footer/social.png) no-repeat;
+    margin-left: 42px;
+}
+
+.social-item-tw {
+    background-position: 0 0;
+}
+
+.social-item-ln {
+    background-position: -89px 0;
+}
+
+.social-item-dr {
+    background-position: -179px 0;
+}
+
+.social-item-be {
+    background-position: -268px 0;
+}

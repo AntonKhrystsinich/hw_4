@@ -1,0 +1,49 @@
+/* ---- BUTTONS ---- */
+
+.btn-wrap {
+    padding-top: 25px;
+}
+
+.btn-wrap-center {
+    text-align: center;
+}
+
+.btn-wrap-left {
+    text-align: left;
+}
+
+.btn-wrap-left a {
+    text-align: center;
+}
+
+.btn-wrap-btn {
+    width: 138px;
+    height: 39px;
+    display: inline-block;
+    padding: 5px;
+    color: #48bf72;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 2px solid #48bf72;
+}
+
+.btn-wrap-btn:hover {
+    color: white;
+    border: 2px solid white;
+    transition: all .3s ease-in-out;
+}
+
+.btn-wrap-btn-dark {
+    color: #3c4955;
+    border: 2px solid #3c4955;
+}
+
+.btn-wrap-btn-dark:hover {
+    color: #48bf72;
+    border: 2px solid #48bf72;
+}

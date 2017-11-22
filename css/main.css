@@ -1,0 +1,307 @@
+@import "components/global.css";
+@import "components/form.css";
+@import "components/social.css";
+@import "components/buttons.css";
+
+/* ---- HEADER ---- */
+
+.page-header {
+    height: 700px;
+    background: url("../img/backgrounds/computer.png") no-repeat center top;
+    background-color: #3c4955;
+    background-size: cover;
+    padding-top: 33px;
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
+}
+
+.page-header .logo {
+    float: left;
+    padding-bottom: 149px;
+}
+
+.page-header .header-nav {
+    float: right;
+    text-align: right;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    height: 90px;
+    line-height: 90px;
+}
+
+.menu .menu-item {
+    display: inline-block;
+    padding: 0 50px;
+    position: relative;
+}
+
+.menu .menu-item:before {
+    content: '/';
+    position: absolute;
+    left: 0;
+    color: white;
+    opacity: 0.5;
+}
+
+.menu .menu-item:first-child:before {
+    display: none;
+}
+
+.menu .menu-item:last-child {
+    padding-right: 0;
+}
+
+.menu .menu-item a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu .menu-item a:hover {
+    color: #48bf72;
+    transition: all .3s ease-in-out;
+}
+
+/* ---- HEADER INFO ---- */
+
+.page-header .info {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.info-title {
+    font-family: 'Big John';
+    font-size: 46px;
+    line-height: 28px;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.info-subtitle {
+    font-family: 'Slim Joe';
+    font-size: 30px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-bottom: 18px;
+}
+.header-music{
+    color:#fff;
+    margin-left:20px;
+    font-size: 14px;
+}
+.audio-player{
+    clear: both;
+    float:left;
+    margin-top:134px;
+}
+/* ---- PORTFOLIO ---- */
+
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio .container {
+    text-align: center;
+}
+
+.portfolio-menu {
+    display: inline-block;
+    margin: 0 0 34px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.portfolio-menu-item {
+    float: left;
+    padding: 0 8px 16px;
+}
+
+.portfolio-menu-link {
+    display: block;
+    padding: 9px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #3c4955;
+    background-color: #eaeaea;
+    transition: all .3s ease;
+    border-radius: 2px;
+}
+
+.portfolio-menu-link:hover {
+    color: #fff;
+    background-color: #48bf72;
+}
+
+.content-left-col {
+    width: 450px;
+    margin-left: 180px;
+    float: left;
+}
+
+.content-right-col {
+    width: 650px;
+    margin-right: 160px;
+    float: right;
+}
+
+.content-image-wrap {
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.content-image-wrap:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(72, 191, 114, 0.8);
+    border-radius: 10px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.content-image-wrap:hover:before {
+    opacity: 1;
+}
+
+.content-image-wrap-first {
+    height: 302px;
+    background-image: url("../img/portfolio/items-on-table-left-col.jpg");
+}
+
+.content-image-wrap-second {
+    height: 486px;
+    background-image: url("../img/portfolio/phone-on-hand.png");
+}
+
+.content-image-wrap-third {
+    height: 438px;
+    background-image: url("../img/portfolio/items-on-table-right-col.png");
+}
+
+.content-image-wrap-fourth {
+    height: 350px;
+    background-image: url("../img/portfolio/prototype2.png");
+}
+
+.content-text-wrap {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.content-image-wrap:hover .content-text-wrap {
+    opacity: 1;
+}
+
+.content-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 30px;
+}
+
+.content-text-first {
+    height: 302px;
+}
+
+.content-text-second {
+    height: 486px;
+}
+
+.content-text-third {
+    height: 438px;
+}
+
+.content-text-fourth {
+    height: 350px;
+}
+
+.content-subtitle {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+/* ---- ABOUT ---- */
+
+.about {
+    background: url("../img/backgrounds/men-computer.png") no-repeat center / cover;
+    background-color: #3c4955;
+    height: 500px;
+}
+
+.about-info {
+    width:570px;
+    height:500px;
+    float:right;
+}
+
+.about-name {
+    color: #ffffff;
+    line-height: 32px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+
+.about-profession {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+.about-text {
+    width: 415px;
+    height: 139px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+/* ---- FOOTER ---- */
+
+.page-footer {
+    background-color: #3c4955;
+    padding: 73px 0;
+}
+
+.footer-copyright {
+    float: left;
+}
+
+
+.copyright-text {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.copyright-link {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.copyright-link:hover {
+    color: #48bf72;
+    transition: all .3s ease-in-out;
+}

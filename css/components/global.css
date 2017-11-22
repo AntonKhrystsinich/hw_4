@@ -1,0 +1,62 @@
+/* ---- FONTS ---- */
+
+@font-face {
+    font-family: 'Big John';
+    src: url('../fonts/BigJohn.eot');
+    src: url('../fonts/BigJohn.eot?#iefix') format('embedded-opentype'), url('../fonts/BigJohn.woff2') format('woff2'), url('../fonts/BigJohn.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BF;
+}
+
+@font-face {
+    font-family: 'Slim Joe';
+    src: url('../fonts/SlimJoe.eot');
+    src: url('../fonts/SlimJoe.eot?#iefix') format('embedded-opentype'), url('../fonts/SlimJoe.woff2') format('woff2'), url('../fonts/SlimJoe.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BF;
+}
+
+/* ---- GLOBAL STYLE ---- */
+
+body {
+    margin: 0;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.container {
+
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-width-700 {
+    max-width: 700px;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clear:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+}
